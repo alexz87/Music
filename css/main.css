@@ -1,0 +1,168 @@
+@import url('css/app.css');
+
+/* Заголовок сайту */
+
+.header {
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+    padding: 10px 0;
+    float: left;
+}
+
+.all-header {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.header__lang {
+    width: 100%;
+    text-align: right;
+}
+
+.lang__link {
+    color: #c4c4c4;
+    font-weight: 800;
+}
+
+.lang__link.active,
+.lang__link:hover {
+    color: var(--light-black);
+    font-weight: 800;
+    border-bottom: 2px solid var(--light-black);
+}
+
+.header__main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main__logo {
+    float: left;
+}
+
+.header__img {
+    color: var(--light-black);
+    height: 50px;
+    float: left;
+}
+
+.header__first {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header__second {
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.header__search {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 0;
+    background: #ececec;
+    width: 360px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 12px;
+    text-indent: 20px;
+    outline: none;
+}
+
+.header__link {
+    color: var(--light-black);
+    font-size: 18px;
+    float: left;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.header__link:hover {border-bottom: 2px solid var(--light-black)}
+
+.header__main > .btn {
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+    width: 90px;
+    height: 40px;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid var(--light-black);
+    line-height: 40px;
+}
+
+.header__reg.btn {width: 140px}
+
+.header__reg.btn,
+.header__auth.btn:hover {
+    background: var(--light-black);
+    color: var(--white);
+}
+
+.header__reg.btn:hover {
+    background: var(--white);
+    color: var(--light-black);
+}
+
+
+
+/* Тіло сайту */
+
+.main {
+    float: left;
+    width: 100%;
+}
+
+.section {
+    float: left;
+    width: 70%;
+    margin: 50px 15% 0 15%;
+}
+
+.main__h3 {font-size: 24px;}
+
+.main__span {
+    height: 2px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    width: 30px;
+    background: var(--light-black);
+}
+
+.img-block {
+    float: left;
+    width: 25%;
+    margin: 20px 0;
+}
+
+.img-block:not(:last-of-type) {margin-right: 12%}
+
+.main__img {width: 100%}
+
+
+
+/* Підвал сайту */
+
+.footer {
+    display: flex;
+    width: 100%;
+    background: var(--light-black);
+    color: var(--white);
+    max-height: 250px;
+}
+
+.footer__config {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 15%;
+    font-size: 14px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
